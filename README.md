@@ -22,7 +22,8 @@ With this computer-enabled amplification, the human-versus-human dialogue of a f
 Amplified Fencer Movement 1 uses an Arduino Nano sewn onto a standart fencing glove and a <a href= "https://choosemuse.com/muse-s/"> Muse S Headband </a> for transnmitting movement and biomedical data from the fencer. 
 
 <h3> The Glove </h3>
-The Arduino in question is a new (at the time of this writing) 3..3v board called <a href="https://docs.arduino.cc/hardware/nano-33-iot"> Nano IoT 33 </a>. This board was selected for its built in 6 DOF IMU and Wifi module. To expand the boards scope a digital compass module based on the <a href="https://www.farnell.com/datasheets/1683374.pdf"> HMC5883L 3 Axis MAgentometer </a> was glue to the board. The Adafruit version of the module is discontinued but there are alternatives made by no-name Chinese manufacturers. The one I got looks like this:
+The Arduino in question is a new (at the time of this writing) 3..3v board called <a href="https://docs.arduino.cc/hardware/nano-33-iot"> Nano IoT 33 </a>. This board was selected for its built in 6 DOF IMU and Wifi module. To expand the boards scope a digital compass module based on the <a href="https://www.farnell.com/datasheets/1683374.pdf"> HMC5883L 3 Axis MAgentometer </a> was glue to the board. The Adafruit version of the module is discontinued but there are alternatives made by no-name Chinese manufacturers. The one I got looks like this: 
+
 
 ![afbeelding](https://user-images.githubusercontent.com/24521356/202803504-c5c872eb-6463-4b75-b7a0-a3b1a100dd7d.png)
 
@@ -63,5 +64,7 @@ Also check the ml* package made by Benjamin Day Smith, which the GIMLeT is based
 <h3> Thanks </h3>
 
 I would like to thank V2 Lab fo Unstable Media for making this project possible. Beyond the entity I would like to Sieta for her warm hosting and spot on email game, Sebastian for voluntering to be a target and his immaculate compressor skills, Richard for his enthusiam in bringing out the subwoofers, Florian for curatorial heavy-lifting, Steffan and Alex for all the beers and finally Fai for controlling the piece "behind the desk". I would also like to thank fellow resident Francesco Luzzana for all extra inspiration during the residency.
+
+Fianlly I would like to thank you, the reader for ignoring all of my typos.
 
 
