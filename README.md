@@ -22,14 +22,14 @@ With this computer-enabled amplification, the human-versus-human dialogue of a f
 Amplified Fencer Movement 1 uses an Arduino Nano sewn onto a standart fencing glove and a <a href= "https://choosemuse.com/muse-s/"> Muse S Headband </a> for transnmitting movement and biomedical data from the fencer. 
 
 <h3> The Glove </h3>
-The Arduino in question is a new (at the time of this writing) 3..3v board called <a href="https://docs.arduino.cc/hardware/nano-33-iot"> Nano IoT 33 </a>. This board was selected for its built in 6 DOF IMU and Wifi module. To expand the boards scope a digital compass module based on the <a href="https://www.farnell.com/datasheets/1683374.pdf"> HMC5883L 3 Axis MAgentometer </a> was glue to the board. The Adafruit version of the module is discontinued but there are alternatives made by no-name Chinese manufacturers. The one I got looks like this: 
+The Arduino in question is a new (at the time of this writing) 3..3v board called <a href="https://docs.arduino.cc/hardware/nano-33-iot"> Nano IoT 33 </a>. This board was selected for its built in 6 DOF IMU and Wifi module. To expand the boards scope a digital compass module based on the <a href="https://www.farnell.com/datasheets/1683374.pdf"> QMC5883L 3 Axis MAgentometer </a> was glued to the board. The Adafruit version of the module is discontinued but there are alternatives made by no-name Chinese manufacturers. The one I got looks like this: 
 
 
 ![afbeelding](https://user-images.githubusercontent.com/24521356/202803504-c5c872eb-6463-4b75-b7a0-a3b1a100dd7d.png)
 
-I will skip the schematics as HMC5883L is an I2C device, and schematics would vary depending on the board you choose to use. Please refer to the datasheet of the microcontroller board of your choosing for its I2C bus connections. 
+I will skip the schematics as QMC5883L is an I2C device, and schematics would vary depending on the board you choose to use. Please refer to the datasheet of the microcontroller board of your choosing for its I2C bus connections. 
 
-The library I have used for the HMC5883L is included under <i> Dependencies </i>. I am certain there are better alternatives but for now this works. DO NOT FORGET TO CALIBRATE WITH THE PROVIDED .ino FILE !
+The library I have used for the QMC5883L is included under <i> Dependencies </i>. I am certain there are better alternatives but for now this works. DO NOT FORGET TO CALIBRATE WITH THE PROVIDED .ino FILE !
 
 The glove sends all the sensor readings as OSC to whatever destination you prefer. Feel free to change the adresses at your discretion. To learn more about OSC and why MIDI 2.0 is utterly useless visit https://ccrma.stanford.edu/groups/osc/index.html
 
