@@ -1,4 +1,4 @@
-<h1> # Amplfied_Fencer </h1>
+<h1> # Amplified_Fencer </h1>
 
 Code + MaxMsp Patches for Hardware used for Amplfied Fencer. Created with the support of V2_ Lab for Unstable Media, Rotterdam during the 2022 Summer Sessions Programme.
 
