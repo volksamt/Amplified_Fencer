@@ -57,7 +57,7 @@ To use the MuseStarter.maxpat you need the <a href="https://cycling74.com/articl
 
 An important part of the performance is an applied machine learning system for making sounds. This comes courtesy of <a href="https://www.federicovisi.com"> Federico Visi </a> and his super cool Max Package called GiMLeT available at https://github.com/federicoVisi/GIMLeT.
 
-I use a heavily modified version of one of the example insturmetns "hacked" to send MIDI to Ableton however it is embarassingly clunky and buggy so it will be posted once cleaned.
+I use a heavily modified version of one of the example insturmetns "hacked" to send MIDI to Ableton however it is embarrassingly clunky and buggy so it will be posted once cleaned.
 
 Also check the ml* package made by Benjamin Day Smith, which the GIMLeT is based on https://www.benjamindaysmith.com/ml-machine-learning-toolkit-in-max.
 
