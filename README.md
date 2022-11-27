@@ -65,6 +65,6 @@ Also check the ml* package made by Benjamin Day Smith, which the GIMLeT is based
 
 I would like to thank V2 Lab fo Unstable Media for making this project possible. Beyond the entity I would like to Sieta for her warm hosting and spot on email game, Sebastian for voluntering to be a target and his immaculate compressor skills, Richard for his enthusiam in bringing out the subwoofers, Florian for curatorial heavy-lifting, Steffan and Alex for all the beers and finally Fai for controlling the piece "behind the desk". I would also like to thank fellow resident Francesco Luzzana for all extra inspiration during the residency.
 
-Fianlly I would like to thank you, the reader for ignoring all of my typos.
+Finally I would like to thank you, the reader for ignoring all of my typos.
 
 
